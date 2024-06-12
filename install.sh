@@ -1,5 +1,5 @@
 sudo tee /etc/apt/sources.list.d/pritunl.list << EOF
-deb https://repo.pritunl.com/stable/apt focal main
+deb https://repo.pritunl.com/stable/apt mantic main
 EOF
 
 sudo apt --assume-yes install gnupg
